@@ -1,0 +1,27 @@
+{
+  "name": "ham",
+  "version": "0.0.0",
+  "description": "HAM Questions Pool",
+  "main": "index.js",
+  "bin": "./bin/build.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "node ./bin/build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/song940/HAM.git"
+  },
+  "keywords": [
+    "HAM"
+  ],
+  "author": "Lsong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/song940/HAM/issues"
+  },
+  "homepage": "https://github.com/song940/HAM#readme"
+}
