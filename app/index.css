@@ -1,0 +1,77 @@
+@import url(//lsong.org/css/stylesheet.css);
+@import url(//lsong.org/stylesheets/button.css);
+
+.level-selector ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    width: 100%;
+    margin: 10px 0;
+}
+
+img {
+    width: 100%;
+}
+
+.question {
+    width: 90%;
+    padding: 10px;
+    margin: 10px auto;
+    background: #fff;
+    font-size: 14px;
+}
+
+.question-id {
+    color: #fff;
+    padding: 1px 3px;
+    font-size: 12px;
+    border-radius: 3px;
+    margin-right: 5px;
+    background-color: #ccc;
+}
+
+.question-image {
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+
+.question-options {
+    color: #333;
+    margin-top: 10px;
+}
+
+.question-option-correct {
+    color: green;
+}
+
+.question-option-wrong {
+    color: red;
+}
+
+.question-option-0:before {
+    content: 'A: ';
+}
+
+.question-option-1:before {
+    content: 'B: ';
+}
+
+.question-option-2:before {
+    content: 'C: ';
+}
+
+.question-option-3:before {
+    content: 'D: ';
+}
+
+.question-option-correct {
+    color: green;
+}
+
+.question-option-wrong {
+    color: red;
+}
