@@ -1,5 +1,5 @@
 import { ready } from 'https://lsong.org/scripts/dom.js';
-import { h, render, useState, useEffect, List } from 'https://lsong.org/scripts/components/index.js';
+import { h, render, useState, useEffect, List } from 'https://lsong.org/scripts/react/index.js';
 
 
 const LevelSelector = ({ onClick: setLevel }) => {
