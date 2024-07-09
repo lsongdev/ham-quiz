@@ -1,5 +1,5 @@
 import { ready } from 'https://lsong.org/scripts/dom.js';
-import { h, render, useState, useEffect, List } from 'https://lsong.org/scripts/react/index.js';
+import { h, render, useState, useEffect } from 'https://lsong.org/scripts/react/index.js';
 
 
 const LevelSelector = ({ onClick: setLevel }) => {
@@ -53,7 +53,7 @@ const Question = ({ question }) => {
       h('span', { className: 'question-id' }, I), Q,
     ]),
     P && h('div', { className: 'question-image' }, [
-      h('img', { src: `https://github.com/song940/HAM/raw/master/img/${P}` })
+      h('img', { src: `img/${P}` })
     ]),
     h('div', { className: `question-options` }, [
       options.map((option, i) => h(Option, { option, className: `question-option-${i} question-option-${option.style}`, onClick: () => handleClick(option, i) }))
