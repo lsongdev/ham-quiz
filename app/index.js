@@ -4,7 +4,7 @@ import { h, render, useState, useEffect, List } from 'https://lsong.org/scripts/
 
 const LevelSelector = ({ onClick: setLevel }) => {
   return h('div', { className: 'level-selector' }, [
-    h('h1', {}, 'Select Level:'),
+    h('h3', {}, 'Select Level:'),
     h('ul', {}, [
       h('li', {}, h("button", { className: 'button button-primary', onClick: () => setLevel('A') }, "A")),
       h('li', {}, h("button", { className: 'button button-warning', onClick: () => setLevel('B') }, "B")),
@@ -14,7 +14,7 @@ const LevelSelector = ({ onClick: setLevel }) => {
 };
 
 const loadData = async (level) => {
-  const response = await fetch(`https://lsong.org/HAM/${level}.json`)
+  const response = await fetch(`${level}.json`)
   const data = await response.json();
   const questions = data.map(question => {
     question.options = [].map.call('ABCD', (option, i) => {
@@ -69,10 +69,11 @@ const App = () => {
     console.log('Level', level);
     loadData(level).then(setData);
   }, [level]);
-  return h('div', {}, [
+  return [
+    h('h2', {}, 'HAM Quiz'),
     !level && h(LevelSelector, { onClick: setLevel }),
     questions && questions.map(question => h(Question, { question }))
-  ]);
+  ];
 };
 
 ready(() => {
