@@ -4,6 +4,7 @@
   "description": "HAM 无线电考试题库索引",
   "subjects": [
     {
+      "id": "ham-a",
       "name": "A 类操作证书",
       "icon": "antenna.radiowaves.left.and.right",
       "color": "5AC8FA",
@@ -12,6 +13,7 @@
       "imageBaseUrl": "https://raw.githubusercontent.com/lsongdev/ham-quiz/refs/heads/master/img/"
     },
     {
+      "id": "ham-b",
       "name": "B 类操作证书",
       "icon": "sparkles",
       "color": "FF9500",
@@ -20,6 +22,7 @@
       "imageBaseUrl": "https://raw.githubusercontent.com/lsongdev/ham-quiz/refs/heads/master/img/"
     },
     {
+      "id": "ham-c",
       "name": "C 类操作证书",
       "icon": "star.fill",
       "color": "FF3B30",
