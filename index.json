@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "lastUpdated": "2026-02-26",
-  "description": "HAM 无线电考试题库索引",
+  "description": "HAM 无线电考试题库",
   "subjects": [
     {
       "id": "ham-c",
