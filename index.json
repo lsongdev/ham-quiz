@@ -4,13 +4,12 @@
   "description": "HAM 无线电考试题库索引",
   "subjects": [
     {
-      "id": "ham-a",
-      "name": "A 类操作证书",
-      "icon": "antenna.radiowaves.left.and.right",
-      "color": "5AC8FA",
-      "description": "业余无线电台 A 类操作技术能力验证题库",
-      "dataSource": "https://raw.githubusercontent.com/lsongdev/ham-quiz/refs/heads/master/A.json",
-      "imageBaseUrl": "https://raw.githubusercontent.com/lsongdev/ham-quiz/refs/heads/master/img/"
+      "id": "ham-c",
+      "name": "C 类操作证书",
+      "icon": "star.fill",
+      "color": "FF3B30",
+      "description": "业余无线电台 C 类操作技术能力验证题库",
+      "url": "ham-c.json"
     },
     {
       "id": "ham-b",
@@ -18,17 +17,15 @@
       "icon": "sparkles",
       "color": "FF9500",
       "description": "业余无线电台 B 类操作技术能力验证题库",
-      "dataSource": "https://raw.githubusercontent.com/lsongdev/ham-quiz/refs/heads/master/B.json",
-      "imageBaseUrl": "https://raw.githubusercontent.com/lsongdev/ham-quiz/refs/heads/master/img/"
+      "url": "ham-b.json"
     },
     {
-      "id": "ham-c",
-      "name": "C 类操作证书",
-      "icon": "star.fill",
-      "color": "FF3B30",
-      "description": "业余无线电台 C 类操作技术能力验证题库",
-      "dataSource": "https://raw.githubusercontent.com/lsongdev/ham-quiz/refs/heads/master/C.json",
-      "imageBaseUrl": "https://raw.githubusercontent.com/lsongdev/ham-quiz/refs/heads/master/img/"
+      "id": "ham-a",
+      "name": "A 类操作证书",
+      "icon": "antenna.radiowaves.left.and.right",
+      "color": "5AC8FA",
+      "description": "业余无线电台 A 类操作技术能力验证题库",
+      "url": "ham-a.json"
     }
   ]
 }
